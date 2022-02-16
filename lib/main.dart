@@ -15,15 +15,16 @@ class MyApp extends StatelessWidget{
     return     MaterialApp(
 
       themeMode: ThemeMode.dark,
-      darkTheme: ThemeData.dark(),
+      darkTheme: ThemeData.light(),
 
       //debugShowCheckedModeBanner: false,
       //home: HomePage(),
-      initialRoute: "/login",
+      initialRoute: "/homepage",
       routes: {
         //MyRoutes.loginRout:(context)=>LoginPage(),
         MyRoutes.homeRoute:(context)=> HomePage(),
         "/login":(context)=> LoginPage(),
+        "/homepage": (context) => HomePage()
       },
     );
   }
