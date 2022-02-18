@@ -12,10 +12,12 @@ class HomePage extends StatelessWidget{
     // TODO: implement build
     return  Scaffold(
       appBar: AppBar(
+        //backgroundColor: Colors.deepPurpleAccent,
+          //foregroundColor: Colors.deepPurpleAccent,
           title: const Text(
             "Allah is Great",
             style: (TextStyle(
-              fontSize: 50,
+              fontSize: 30,
               fontStyle: FontStyle.italic,
             )
             ),
