@@ -56,6 +56,7 @@ class _LoginPageState extends State<LoginPage> {
                   decoration: const InputDecoration(
                   //labelText: "User Name",
                   hintText: "Enter User Name"
+
                   ),
                     validator: (String? value){
                     if(value != null && value.isEmpty){
