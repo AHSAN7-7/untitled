@@ -1,14 +1,15 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/painting.dart';
 import 'package:flutter/widgets.dart';
 import 'package:untitled/Widgets/drawer.dart';
+import 'package:untitled/models/catalog.dart';
 
 class HomePage extends StatelessWidget{
   const HomePage({Key? key}) : super(key: key);
-// Day 11 we learn about context
+
  @override
   Widget build(BuildContext context) {
-   int time= 24;
     // TODO: implement build
     return  Scaffold(
       appBar: AppBar(
@@ -23,16 +24,23 @@ class HomePage extends StatelessWidget{
             ),
           ),
       ),
-      body: Center(
-          child: Text(
-              "Allah is with us $time hours",
-          style: (const TextStyle(
-            fontSize: 30,
-            fontStyle: FontStyle.italic,
-            fontWeight: FontWeight.bold,
-          )
-          )
+      body: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Card(
+          child: ListTile(
+            onTap: (){
+              print("\$${Items.name}");
+            },
+            leading: Image.asset("assets/images/me.png"),
+            title: Text(Items.name),
+            subtitle: Text(Items.desc),
+            trailing: Text("\$${Items.price}",
+              style: TextStyle(
+                  fontWeight: FontWeight.bold,color: Colors.deepPurple,fontSize: 25.0),),
+
+
           ),
+        ),
       ),
       drawer: MyDrawer(),
     );
