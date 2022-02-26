@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../models/catalog.dart';
@@ -10,11 +9,13 @@ class ItemWidget extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-  return ListTile(
-    leading: Image.network(itm.image),
-      title: Text(itm.name),
-    subtitle: Text(itm.desc),
-    trailing: Text(" \$${itm.price.toString()}"),
+  return Card(
+    child: ListTile(
+      leading: Image.network(itm.image),
+        title: Text(itm.name),
+      subtitle: Text(itm.desc),
+      trailing: Text(" \$${itm.price.toString()}"),
+    ),
   );
   }
 

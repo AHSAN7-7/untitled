@@ -10,11 +10,12 @@ class HomePage extends StatelessWidget{
 
  @override
   Widget build(BuildContext context) {
+   //final dummyList = List.generate(5, (index) => CatalogModels.items[0]);
     // TODO: implement build
     return  Scaffold(
       appBar: AppBar(
         //backgroundColor: Colors.deepPurpleAccent,
-          //foregroundColor: Colors.deepPurpleAccent,
+        //foregroundColor: Colors.deepPurpleAccent,
           title: const Text(
             "Allah is Great",
             style: (TextStyle(
@@ -25,11 +26,9 @@ class HomePage extends StatelessWidget{
       ),
       body: ListView.builder(
           itemCount: CatalogModels.items.length,
-          itemBuilder: (context,index) {
-            return ItemWidget(
+          itemBuilder: (context,index) => ItemWidget(
               itm: CatalogModels.items[index]
-          );
-          }
+          )
         ),
       drawer: MyDrawer(),
     );
