@@ -1,30 +1,34 @@
 {
   "people" : [
     {
-       "firstName": "Ahsan ullah ",
-       "lastName": "khan",
-       "gender": "male",
+       "id": 1,
+       "name": "Ahsan ullah ",
+       "desc": "khan",
+       "color": "male",
        "age": 30,
        "image": "https://avatars.githubusercontent.com/u/77576978?s=400&v=4"
     },
     {
-       "firstName": "Naeem ",
-       "lastName": "Khan",
-       "gender": "male",
+      "id": 2,
+      "name": "Naeem ",
+       "desc": "Khan",
+       "color": "male",
        "age": 27,
        "image": "https://avatars.githubusercontent.com/u/77576978?s=400&v=4"
     },
     {
-       "firstName": "Ameer Hamza ",
-       "lastName": "khan",
-       "gender": "male",
+       "id": 3,
+       "name": "Ameer Hamza ",
+       "desc": "khan",
+       "color": "male",
        "age": 22,
        "image": "https://avatars.githubusercontent.com/u/77576978?s=400&v=4"
     },
     {
-       "firstName": "Hanzala",
-       "lastName": "Khan",
-       "gender": "male",
+       "id": 4,
+       "name": "Hanzala",
+       "desc": "Khan",
+       "color": "male",
        "age": 18,
        "image": "https://avatars.githubusercontent.com/u/77576978?s=400&v=4"
     }

@@ -1,28 +1,31 @@
 class CatalogModels{
-  static final items =[
-    Item(
-        id: 1,
-        name: "iPhone 13 pro",
-        desc: "Apple iPhone 13 Generation",
-        color: "Silver",
-        price: 999,
-        //image: "https://www.apple.com/ae/shop/buy-iphone/iphone-13-pro/6.1-inch-display-128gb-silver")
-        image: "https://avatars.githubusercontent.com/u/77576978?s=400&v=4")
-        //image: "data:image/jpeg;base64,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")
-  ];
-}
+  static  List<Item> items =[];}
 class Item{
   final int id;
   final String name;
   final String desc;
   final String color;
-  final int price;
+  final int age;
   final String image;
 
   Item({required this.id, required this.name,
     required this.desc, required this.color,
-    required this.price, required this.image});
-}
+    required this.age, required this.image});
+
+  factory Item.fromMap(Map<dynamic,dynamic> map){
+    return Item(
+        id: map["id"],
+        name: map["name"],
+        desc: map["desc"],
+        color: map["color"],
+        age: map["age"],
+        image: map["image"]);
+  }
+  toMap() {
+    return {
+    "id" : id,"name" : name,"desc" : desc,"color" : color,"price" : age,"image" : image
+  };
+  }}
 
 
 
