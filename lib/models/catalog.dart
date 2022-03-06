@@ -23,9 +23,10 @@ class Item{
   }
   toMap() {
     return {
-    "id" : id,"name" : name,"desc" : desc,"color" : color,"price" : age,"image" : image
-  };
-  }}
+      "id" : id,"name" : name,"desc" : desc,"color" : color,'age' : age,"image" : image
+    };
+  }
+  }
 
 
 
