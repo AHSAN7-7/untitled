@@ -16,4 +16,5 @@ class MyTheme{
   static ThemeData darkTheme(){
     return ThemeData(brightness: Brightness.dark);
   }
+  static Color creamColor = const Color(0xfff5f5f5);
 }

@@ -32,12 +32,12 @@ class _LoginPageState extends State<LoginPage> {
         child: Column( //mainAxisSize: MainAxisSize.max,
           children: [
             Image.asset("assets/images/login.png", width: 250, height: 250, fit: BoxFit.cover),
-         SizedBox(
+         const SizedBox(
             height: 20.0
           ),
           Text("Welcome "+ name,
             style: (
-            TextStyle(
+            const TextStyle(
               fontSize: 20.0,
             )
             ),

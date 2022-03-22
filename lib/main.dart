@@ -14,20 +14,23 @@ class MyApp extends StatelessWidget{
 
   Widget build(BuildContext context) {
     //TODO: implement build
-    return     MaterialApp(
-      themeMode: ThemeMode.light,
-      theme: MyTheme.lightTheme(),
-      //darkTheme: ThemeData.light(),
-      debugShowCheckedModeBanner: false,
-      //home: HomePage(),
-      initialRoute: MyRoutes.homeRoute,
-      routes: {
-        //MyRoutes.loginRout:(context)=>LoginPage(),
-        MyRoutes.homeRoute:(context)=> HomePage(),
-        MyRoutes.loginRout:(context)=> LoginPage(),
+    return
+      MaterialApp(
+        themeMode: ThemeMode.system,
+        theme: MyTheme.lightTheme(),
+        //darkTheme: ThemeData.light(),
+        debugShowCheckedModeBanner: false,
+        // home: HomePage(),
+          initialRoute: MyRoutes.homeRoute,
+            routes: {
+          //MyRoutes.loginRout:(context)=>LoginPage(),
+          MyRoutes.homeRoute:(context)=> const HomePage(),
+          MyRoutes.loginRout:(context)=> const LoginPage(),
+            },
 
-      },
-    );
+      );
+
   }
+
 }
 

@@ -6,7 +6,7 @@
        "desc": "khan",
        "color": "male",
        "age": 30,
-       "image": "https://avatars.githubusercontent.com/u/77576978?s=400&v=4"
+       "image": "assets/images/me.png"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
        "desc": "Khan",
        "color": "male",
        "age": 27,
-       "image": "https://avatars.githubusercontent.com/u/77576978?s=400&v=4"
+       "image": "assets/images/nomi.jpg"
     },
     {
        "id": 3,
@@ -22,7 +22,7 @@
        "desc": "khan",
        "color": "male",
        "age": 22,
-       "image": "https://www.facebook.com/photo/?fbid=578045523455968&set=a.110899680170557&__tn__=%3C"
+       "image": "assets/images/hamza.png"
     },
     {
        "id": 4,
@@ -30,7 +30,7 @@
        "desc": "Khan",
        "color": "male",
        "age": 18,
-       "image": "https://avatars.githubusercontent.com/u/77576978?s=400&v=4"
+       "image": "assets/images/hanzala.jpg"
     }
   ]
 }
